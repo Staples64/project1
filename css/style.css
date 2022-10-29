@@ -1,21 +1,108 @@
-body {
+@font-face {
+    font-family: balsamiq;
+    src: url(/fonts/BalsamiqSans-Regular.ttf);
+    font-family: bungee;
+    src: url(/fonts/Bungee-Regular.otf);
+}
+.flexbox_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.flexbox-item{
+    width: 400px;
+    margin: 10px;
+    border: 3px solid white;
+    background-color: darkgrey;
+}
+.flexbox-item-1{
+    min-height: 100px;
+}
+.flexbox-item-2{
+    min-height: 200px;
+}
+.flexbox-item-3{
+    min-height: 300px;
+}
+.splatlogo {
+    width: 400px;
+    height: auto;
+    position: static;
+}
+
+    .boxed{ border: 1px solid white
+}
+
+h1 {   display: table;
+    margin: 0px auto 0px auto;
+    padding:5px;font-size: 50px;background-color: rgb(255, 14, 187);color:white;}
+    
+h2 {   display: table;
+        margin: 0px auto 0px auto;
+        padding:5px;font-size:30px;background-color: rgb(255, 255, 255);color:black;}
+        .game{     display: table;
+            margin: 0px auto 0px auto;
+            padding:5px;font-size:30px;background-color: rgb(255, 14, 187);color:white;}
+        .gear{     display: table;
+            margin: 0px auto 0px auto;
+            padding:5px;font-size:30px;background-color: rgb(47, 232, 43);color:white;}
+        .story{     display: table;
+            margin: 0px auto 0px auto;
+            padding:5px;font-size:30px;background-color: rgb(14, 52, 255);color:white;}
+        .salmon{     display: table;
+            margin: 0px auto 0px auto;
+            padding:5px;font-size:30px;background-color: rgb(255, 130, 14);color:white;}
+            
+h3 {   display: table;
+                margin: 0px auto 0px auto;
+                padding:5px;font-size:60px;background-color: rgb(255, 130, 14);color:white;}
+            .game2{display: table;
+                    margin: 0px auto 0px auto;
+                    padding:5px;font-size:60px;background-color: rgb(255, 14, 187);color:white;}
+            .gear2{display: table;
+                     margin: 0px auto 0px auto;
+                    padding:5px;font-size:60px;background-color: rgb(47, 232, 43);color:white;}
+            .salmon2{display: table;
+                     margin: 0px auto 0px auto;
+                     padding:5px;font-size:60px;background-color: rgb(255, 130, 14);color:white;}
+            .story2{display: table;
+                    margin: 0px auto 0px auto;
+                     padding:5px;font-size:60px;background-color: rgb(14, 52, 255);color:white;}
+                
+
+   p {
+    display: table;
+    margin: 0px auto 0px auto;
+    padding:5px;font-size: 20px; font-family: balsamiq; background-color:white;color:black;}
+* {box-sizing: border-box;}
+body{ margin: 40;}
+body.home{
     background-image: url(/images/homebg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-.splatlogo {
-    width: 600px;
-    height: auto;
-    position: static;
-
+body.game{
+    background-image: url(/images/gameplaybg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
-h1 {   display: table;
-    margin: 0px auto 0px auto;
-    padding:5px;font-size:20px;background-color: rgb(255, 14, 187);color:white;}
-   p {
-    display: table;
-    margin: 0px auto 0px auto;
-    padding:5px;font-size:20px;background-color:white;color:black;}
-* {box-sizing: border-box;}
-body{ margin: 40;}
+body.gear{
+    background-image: url(/images/gearbg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body.salmon{
+    background-image: url(/images/salmonrun.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body.story{
+    background-image: url(/images/storymodebgnew.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
