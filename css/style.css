@@ -1,8 +1,8 @@
 @font-face {
     font-family: balsamiq;
-    src: url(/fonts/BalsamiqSans-Regular.ttf);
+    src: url(../fonts/BalsamiqSans-Regular.ttf);
     font-family: bungee;
-    src: url(/fonts/Bungee-Regular.otf);
+    src: url(../fonts/Bungee-Regular.otf);
 }
 .flexbox_container{
     display: flex;
@@ -77,31 +77,31 @@ h3 {   display: table;
 * {box-sizing: border-box;}
 body{ margin: 40;}
 body.home{
-    background-image: url(/images/homebg.jpg);
+    background-image: url(../images/homebg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 body.game{
-    background-image: url(/images/gameplaybg.jpg);
+    background-image: url(../images/gameplaybg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 body.gear{
-    background-image: url(/images/gearbg.jpg);
+    background-image: url(../images/gearbg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 body.salmon{
-    background-image: url(/images/salmonrun.jpg);
+    background-image: url(../images/salmonrun.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 body.story{
-    background-image: url(/images/storymodebgnew.jpg);
+    background-image: url(../images/storymodebgnew.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
