@@ -17,7 +17,7 @@ body.home {
   background-size: cover;
 }
 body.game {
-  background-image: url(../images/gameplaybg.jpg);
+  background-image: url(../images/splatoonvideo.mp4);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -39,6 +39,13 @@ body.story {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+.back-video{
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  background-size: cover;
+  align-content: center;
 }
 h1,
 h2,
@@ -204,7 +211,15 @@ main .right {
   background-color: rgb(255, 130, 14);
   color: white;
 }
+.zoom {
+  padding: 50px;
+  
+  transition: transform .2s; /* Animation */
+}
 
+.zoom:hover {
+  transform: scale(1.1); 
+}
 h3 {
   display: table;
   margin: 0px auto 0px auto;
